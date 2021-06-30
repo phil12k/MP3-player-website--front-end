@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Acme|Lobster|Mansalva|Josefin Sans|Dancing+Script|Pacifico&display=swap" rel="stylesheet">
+        <script src="javaScript.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>
+
+        </title>
+
+        <style>
+            .inputBox{
+                padding-left: 10px;
+                height: 40px ;
+                width:350px ;
+                border : 3px solid brown ;
+                border-radius: 50px;
+            }
+
+            table td {
+                color:aliceblue ;
+                font-size: 35px ;
+                font-weight: bolder;
+                padding-left: 10px;
+            }
+
+            .label{
+                float: right;
+            }
+
+            .signUpbutton{
+                margin-top:15px ;
+                border-radius: 50px;
+                height: 50px;
+                width:220px ;
+                border:none ;
+                font-family:"Josefin Sans";
+                font-size: 30px;
+                background-color: rgb(185, 235, 236);
+                font-weight:bolder; }
+
+            .utilities{
+                margin-top:15px ;
+                border-radius: 50px;
+                height: 50px;
+                width:400px ;
+                border:none ;
+                font-family:"Josefin Sans";
+                font-size: 30px;
+                background-color: rgb(185, 235, 236);
+                font-weight:bolder;
+
+            }
+            .fa{
+                color: black;
+                padding:7px ;
+            }
+
+        
+            *:focus{outline: 0;}
+          
+            
+        </style>
+
+    </head>
+
+    <body style="background-image: url(forsignup.jpg);">
+        <div>
+        <button class="utilities">Sign in with Google<i class="fa fa-google" aria-hidden="true"></i></button>
+        <table style="float:right;margin:50px;">
+            <tr>
+                <td class="label">Email:</td>
+                <td><input type="email" class="inputBox" placeholder="email@domain.com"></td>
+            </tr>
+            <tr>
+                <td class="label">Password:</td>
+                <td><input type="password" class="inputBox"></td>
+            </tr>
+            <tr>
+                <td class="label">Name:</td>
+                <td><input type="text" class="inputBox"></td>
+            </tr>
+            <tr>
+                <td class="label">Date of Birth:</td>
+                <td><input type="date" class="inputBox"></td>
+            </tr>
+
+            <tr><td colspan="2" align="center"><input type="button" value="Sign Up" 
+                class="signUpButton" onclick="window.location.href='second.html'" onclick="window.location.href='second.html'"></td></tr>
+        </table>
+    </div>
+    </body>
+</html>

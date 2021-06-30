@@ -1,0 +1,36 @@
+<html>
+    <head>
+            <title>Log In</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" type="text/css" href="stylesheet.css">
+            <script src="javaScript.js"></script>
+            <script src="https://apis.google.com/js/platform.js" async defer></script>
+            <meta name="google-signin-client_id"
+             content="104827302354-69n8q4bt19v0mtlnupebu4ue66qie2qm.apps.googleusercontent.com.apps.googleusercontent.com">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+
+    </head>
+
+    <body style="background-color: whitesmoke;">
+      <center>  <h1 style="align-content:center;font-weight:bolder;text-decoration:underline;margin-top:50px;">
+        <b >To continue, log in to MusicLib.</b></h1>
+      
+        <div>
+            <ul style="list-style: none;">
+                <div class='g-signin2' data-onsuccess="onSignIn"></div>
+                <li><hr>OR<hr></li>
+                <li><form><input  type="email" placeholder="Enter your email address" id="userEmail" required></form></li>
+                <div>
+                <li style="margin:0;padding:0;"><form><input type="password" placeholder="Enter your password" id="userPassword" style="display:inline;"></form></li>
+                <input type="checkbox" id="show_password" style="height:18px;width:18px;" onchange="checkShowPassword()"><span style="font-size:20px;font-weight:bolder;margin-left:5px;">Show Password</span>
+                </div>
+                <li><form><input type="checkbox" style="margin:10;padding:5;font-size:40px;" required><b>Remember Me</b></form></li>
+                <li><button type="submit"  style="background-color:rgb(91, 94, 88);height:45px;width:210px;border:2px solid black;font-size:25px;
+                border-radius:15px;font-family:'Times New Roman', Times, serif;color:white;"><b>Log In</b></button></li>
+            </ul>
+        </div>
+    </center>
+    </body>
+</html>

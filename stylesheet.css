@@ -1,0 +1,336 @@
+
+*{cursor: pointer;}
+
+body{margin-right: 0;
+padding: 0;}
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.home_buttons, .icon
+        {
+            font-family: 'Times New Roman', cursive;
+            background: none ;
+            border: none ;
+            font-size: 20px ;
+            font-weight: bold ;
+            color:yellow;
+        }
+
+       .fa:hover{color:white ;} 
+
+       .home_buttons:hover 
+       {
+           transition: 10ms ;
+        font-family: 'Mansalva', cursive;
+           font-size: 25px ;
+            color:white ;
+       }
+       .intro{
+           
+           
+           opacity:1;
+           position:fixed;
+       }
+
+       .quote
+       {
+
+        position:inherit;
+        color:whitesmoke;
+        font-weight: bolder ;
+        font-style: oblique ;
+        font-family: 'Josefin Sans', cursive;
+        font-weight: bolder ;
+        margin-bottom: 0 ;
+        font-size: 45px ;
+        padding-bottom :0px ;
+        font-family:'Dancing Script' ;
+        text-shadow: 0 0 20px ;
+       
+        }
+
+
+       body {   background-repeat: no-repeat ;
+                background-size: cover ;
+            }
+        
+        .text {
+                    text-align: center ;
+                    color: cyan ;
+              }
+
+    .mobile_image {
+                    border-style: solid ;
+                    border-color: black ;
+                    border-top-left-radius: 50px ;
+                    border-top-right-radius: 50px ;
+                    border-bottom-left-radius: 30px ;
+                    border-bottom-right-radius: 30px ;  
+                    margin-left: 20px ;
+                  }
+
+.bold_text {
+    font-weight: bolder ;
+    font-size: 40px ;
+    padding-top :0px ;
+    margin: 0 ;
+    color: whitesmoke ; 
+    font-family: 'Josefin Sans', cursive;
+     
+}
+
+
+
+#left_iframe {
+        position:fixed;
+        top:0; left:0; bottom:0; right:0; 
+        width:18%; height:100%;
+        border:none;
+        margin:0; padding:0;
+        overflow:hidden;
+        z-index:999999;
+        float: left;
+        background-color: rgb(27, 25, 25);
+    }
+
+
+    #middle_iframe {
+      
+        position:fixed; 
+        top:0; 
+        left:18% ;
+        right:0; 
+        width:82%;
+         height:100%;
+         border:none; 
+         margin:0; padding:0; 
+         overflow:hidden;
+        z-index:999999;float: inherit;
+        border-style: 3px solid red ;
+    }
+
+
+    ::-webkit-scrollbar {
+        width: 10px;
+      }
+    
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+       
+      ::-webkit-scrollbar-thumb {
+        background: #888; 
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+    }
+
+
+    #left_iframe_div{
+        padding:0 ;
+        margin-bottom: 20px ;
+        left:0;
+        width:18% ;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    .left_iframe_buttons{
+
+        font-family: 'Roboto Slab', serif;
+        align-items: center;
+        text-align: center;
+        color: chartreuse;
+        font-size: 18px;
+        background: none;
+        width: 150px;
+        height:25px ;
+        align-items: center;
+        text-align: center;
+        padding:0 ;
+        margin-right:0 ;
+        margin-bottom: 5px;
+        left:0 ;
+        border: none;
+        box-sizing: border-box;
+        transition: 0.1s;
+    }
+
+    .left_iframe_buttons:hover
+    {
+            color: white;
+            font-size: 20px;
+            opacity: 1;
+    }
+
+    .fa{
+        margin-left : 5px ;
+        color:white ;
+        margin-right:5px ;
+    }
+
+
+
+
+    .left_iframe_logs {
+        
+        margin-left:20px;
+        height:40px ;
+        width :150px ;
+        border-radius: 10px ;
+        border-style: solid ;
+        margin-bottom: 10px ;
+        font-size: 18px ;
+        color:white;
+        border-color: white;
+        padding: 5px ;
+        align-items: center;
+        text-align: center;
+        background: none;
+        transition: 0.1s;
+        font-weight: bolder;
+
+    }
+
+    .left_iframe_logs:hover{
+        color:chartreuse ;
+        font-size: 20px;
+        opacity: 1;
+    }
+
+
+    .googleLogIn{
+       border:none ;
+        color:black ;
+        font-weight: bolder;
+        width :300px;
+        height: 45px;
+        border-radius: 15px;
+        background:rgb(235, 196, 196);
+        font-size: 20px;
+
+    }
+
+    #userEmail , #userPassword 
+    {
+        border:none ;
+        height:45px ;
+        width:300px ;
+        border: 2px solid black;
+        border-radius: 15px;
+        padding:5px;
+    }
+
+
+    #play_pause_utilities{
+        bottom: 0px;
+        width:100% ;
+        height: 10%;
+        align-self: center;
+        padding: 0;
+       /*position: fixed ; */
+        margin:0 ;
+        float: right;
+        padding: 0;
+    }
+    
+
+    #bottom_iframe{
+        left:0 ;
+        background-color: rgb(104, 107, 107);
+        background-position-x: 0;
+        position:fixed;
+        bottom:0 ;
+        border:none ;
+        height: 15%;
+        width:100% ;
+        margin-left:0; ;
+        scroll-padding-left:0 ;
+    }
+    
+
+
+    .maindiv{
+        left:18% ;
+        top:0 ;
+        height:200px;
+        right:0 ;
+        border: 2px solid black;
+        overflow: hidden;
+        white-space: nowrap;
+        margin:0;
+        width:100%;
+        overflow: hidden;
+        margin-bottom: 15px;
+      }
+    
+      .homepage_options{
+        background: none ;
+        border:none ;
+        font-weight: bolder;
+        text-decoration:2px underline black;
+        color: whitesmoke;
+      
+
+}
+
+.album_caption_div{
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: white;
+    font-size: 18px;
+    width:230px;
+    height:33px ;
+    align-items: center;
+    padding-left:5px ;
+}
+
+
+.names
+{
+    width: fit-content;
+    float: center;
+    height:10px ;
+    margin:5px ;
+    padding:20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color : white ;
+    transition-delay: 10ms;
+
+}
+
+
+.names:hover
+{
+    font-weight: bolder;
+    font-size:20px ;
+    height: 20px;
+}
+
+
+
+
+button:focus {outline:0;}
+
+
+.playerBlocks{
+
+    display: inline-block;
+    width:340px ;
+    size: 45px;
+    margin:4px ;
+    color:white ;
+    font-size: 40px;
+            }
+
+
+audio {
+    margin:5px ;
+}
+
+audio:focus{outline: none;}
